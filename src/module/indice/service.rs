@@ -3,10 +3,7 @@ use reqwest::Method;
 
 use crate::{
     common::model::BangumiClient,
-    module::{
-        model::Paged,
-        subject::model::{Subject, SubjectType},
-    },
+    module::{model::Paged, subject::model::SubjectType},
 };
 
 use super::model::{

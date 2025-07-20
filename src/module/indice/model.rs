@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
 use crate::module::{
-    model::{Image, InfoBox, Stat, Tag},
+    model::{Image, InfoBox, Stat},
     revision::model::Creator,
     subject::model::SubjectType,
 };
