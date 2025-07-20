@@ -1,0 +1,91 @@
+{
+  "data": [
+    {
+      "updated_at": "2025-07-14T14:12:28+08:00",
+      "comment": null,
+      "tags": [],
+      "subject": {
+        "date": "2012-01-07",
+        "images": {
+          "small": "https://lain.bgm.tv/r/200/pic/cover/l/8e/28/23161_y2AEb.jpg",
+          "grid": "https://lain.bgm.tv/r/100/pic/cover/l/8e/28/23161_y2AEb.jpg",
+          "large": "https://lain.bgm.tv/pic/cover/l/8e/28/23161_y2AEb.jpg",
+          "medium": "https://lain.bgm.tv/r/800/pic/cover/l/8e/28/23161_y2AEb.jpg",
+          "common": "https://lain.bgm.tv/r/400/pic/cover/l/8e/28/23161_y2AEb.jpg"
+        },
+        "name": "偽物語",
+        "name_cn": "伪物语",
+        "short_summary": "　　伪物语是伪物的物语(伪即不真实，不成熟，虚伪的)。历和女友战场原是伪物；历的两个妹妹火怜和月火是伪物；欺诈师贝木等也是伪物。而相对的，羽川是个非常强大的真物。伪物语中的怪异都与历的妹妹扯上了关系，引发了一系列的事件。 ",
+        "tags": [
+          {
+            "name": "新房昭之",
+            "count": 3875,
+            "total_cont": 0
+          },
+          {
+            "name": "西尾维新",
+            "count": 2922,
+            "total_cont": 0
+          },
+          {
+            "name": "伪物语",
+            "count": 1798,
+            "total_cont": 0
+          },
+          {
+            "name": "SHAFT",
+            "count": 1758,
+            "total_cont": 0
+          },
+          {
+            "name": "物语系列",
+            "count": 1484,
+            "total_cont": 0
+          },
+          {
+            "name": "2012年1月",
+            "count": 1388,
+            "total_cont": 0
+          },
+          {
+            "name": "TV",
+            "count": 1140,
+            "total_cont": 0
+          },
+          {
+            "name": "战场原荡漾",
+            "count": 721,
+            "total_cont": 0
+          },
+          {
+            "name": "轻小说改",
+            "count": 713,
+            "total_cont": 0
+          },
+          {
+            "name": "2012",
+            "count": 652,
+            "total_cont": 0
+          }
+        ],
+        "score": 7.9,
+        "type": 2,
+        "id": 23161,
+        "eps": 11,
+        "volumes": 0,
+        "collection_total": 24787,
+        "rank": 341
+      },
+      "subject_id": 23161,
+      "vol_status": 0,
+      "ep_status": 2,
+      "subject_type": 2,
+      "type": 3,
+      "rate": 0,
+      "private": false
+    }
+  ],
+  "total": 1,
+  "limit": 30,
+  "offset": 0
+}

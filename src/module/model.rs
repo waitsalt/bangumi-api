@@ -10,11 +10,11 @@ pub struct Paged<T> {
     /// 偏移量
     pub offset: u32,
     /// 当前页的数据列表
-    pub data: Vec<T>,
+    pub data: Option<Vec<T>>,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, Deserialize, Serialize)]
-pub struct Images {
+pub struct Image {
     pub large: String,
     pub common: String,
     pub medium: String,
@@ -24,7 +24,7 @@ pub struct Images {
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 #[serde(rename_all = "lowercase")]
-pub enum ImagesType {
+pub enum ImageType {
     Large,
     Common,
     Medium,
@@ -33,7 +33,7 @@ pub enum ImagesType {
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, Deserialize, Serialize)]
-pub struct SimpleImages {
+pub struct SimpleImage {
     pub large: String,
     pub medium: String,
     pub small: String,
@@ -42,7 +42,7 @@ pub struct SimpleImages {
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 #[serde(rename_all = "lowercase")]
-pub enum SimpleImagesType {
+pub enum SimpleImageType {
     Large,
     Medium,
     Small,
@@ -52,6 +52,15 @@ pub enum SimpleImagesType {
 #[derive(Debug, Clone, PartialEq, Deserialize, Serialize)]
 #[serde(rename_all = "lowercase")]
 pub enum SearchSort {
+    Match,
+    Heat,
+    Rank,
+    Score,
+}
+
+#[derive(Debug, Clone, PartialEq, Deserialize, Serialize)]
+#[serde(rename_all = "lowercase")]
+pub enum BrowseSort {
     Match,
     Heat,
     Rank,
@@ -77,4 +86,13 @@ pub enum BloodType {
 pub struct Tag {
     pub name: String,
     pub count: u32,
+    pub total_cont: u32,
+}
+
+pub type InfoBox = Vec<InfoBoxItem>;
+
+#[derive(Clone, Debug, Serialize, Deserialize)]
+pub struct InfoBoxItem {
+    pub key: String,
+    pub value: serde_json::Value,
 }
