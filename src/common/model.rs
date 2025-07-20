@@ -31,7 +31,7 @@ impl Default for BangumiClient {
                 "waitsalt/bangumi-api (https://github.com/waitsalt/bangumi-api)".to_string(),
             ),
             client: reqwest::Client::new(),
-            access_token: Some("lshFF34IO3sCl6Ra6EXpoqeWTr5ARhI8DUSUgcCy".to_string()),
+            access_token: None,
         }
     }
 }
